@@ -1,0 +1,5 @@
+rvm use 1.9.3@try_iOS6_test_runner_with_cocoapods --create
+
+if ! command -v bundle ; then
+  gem install bundler
+fi

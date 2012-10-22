@@ -1,0 +1,31 @@
+# emacs noise
+*~
+# xcode noise
+build/*
+#*.perspective
+#*.perspectivev3
+*.pbxuser
+# *.xcworkspace
+#*.mode1
+#*.mode2v3
+#*.mode1v3
+xcuserdata
+Snapshots
+Pods/*
+
+# osx noise
+.DS_Store
+**/*.swp
+*.swp
+.redcar
+dealermatch/dealermatch-Info.plist.back
+dealermatch/dealermatch-Info.plist.new
+config/settings.plist.new
+config/settings.plist.back
+**/*.orig
+.idea/*
+rerun.txt
+tags
+
+# DM Noise
+commit_report.html

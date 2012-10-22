@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443B214FD27041A49ED23E77 /* libPods-TryiOS6TestRunnerWithCocoapodsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D52E10E0DE4EACA6119EE6 /* libPods-TryiOS6TestRunnerWithCocoapodsTests.a */; };
+		82D689FCAB454EE4B50F3703 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA9DE3F1340CD8F8C5BF7 /* libPods.a */; };
+		AF3189A116357D7600E17B28 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C06F116357C2E00725FC1 /* MainStoryboard_iPhone.storyboard */; };
 		AF8C06DA16357C2E00725FC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8C06D916357C2E00725FC1 /* UIKit.framework */; };
 		AF8C06DC16357C2E00725FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8C06DB16357C2E00725FC1 /* Foundation.framework */; };
 		AF8C06DE16357C2E00725FC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8C06DD16357C2E00725FC1 /* CoreGraphics.framework */; };
@@ -24,6 +27,12 @@
 		AF8C070316357C2E00725FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8C06DB16357C2E00725FC1 /* Foundation.framework */; };
 		AF8C070B16357C2E00725FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF8C070916357C2E00725FC1 /* InfoPlist.strings */; };
 		AF8C070E16357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8C070D16357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests.m */; };
+		AFC6CF44163581710032B1B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF43163581710032B1B0 /* MapKit.framework */; };
+		AFC6CF471635817E0032B1B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF461635817E0032B1B0 /* AudioToolbox.framework */; };
+		AFC6CF491635819A0032B1B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF481635819A0032B1B0 /* MessageUI.framework */; };
+		AFC6CF4A163581B40032B1B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF481635819A0032B1B0 /* MessageUI.framework */; };
+		AFC6CF4B163581B70032B1B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF461635817E0032B1B0 /* AudioToolbox.framework */; };
+		AFC6CF4C163581B90032B1B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CF43163581710032B1B0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EFAEAF70F0E4BDDACAAFB7C /* Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig"; path = "Pods/Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AB262DD20EEA45F998B3E744 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		AF8C06D516357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryiOS6TestRunnerWithCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8C06D916357C2E00725FC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AF8C06DB16357C2E00725FC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AF8C06DD16357C2E00725FC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF8C06D916357C2E00725FC1 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF8C06DB16357C2E00725FC1 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF8C06DD16357C2E00725FC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AF8C06E116357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TryiOS6TestRunnerWithCocoapods-Info.plist"; sourceTree = "<group>"; };
 		AF8C06E316357C2E00725FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF8C06E516357C2E00725FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,11 +66,16 @@
 		AF8C06F716357C2E00725FC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF8C06F816357C2E00725FC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF8C06FF16357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryiOS6TestRunnerWithCocoapodsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8C070016357C2E00725FC1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF8C070016357C2E00725FC1 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AF8C070816357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TryiOS6TestRunnerWithCocoapodsTests-Info.plist"; sourceTree = "<group>"; };
 		AF8C070A16357C2E00725FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF8C070C16357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TryiOS6TestRunnerWithCocoapodsTests.h; sourceTree = "<group>"; };
 		AF8C070D16357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryiOS6TestRunnerWithCocoapodsTests.m; sourceTree = "<group>"; };
+		AFC6CF43163581710032B1B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AFC6CF461635817E0032B1B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AFC6CF481635819A0032B1B0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E3D52E10E0DE4EACA6119EE6 /* libPods-TryiOS6TestRunnerWithCocoapodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryiOS6TestRunnerWithCocoapodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9AA9DE3F1340CD8F8C5BF7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC6CF491635819A0032B1B0 /* MessageUI.framework in Frameworks */,
+				AFC6CF471635817E0032B1B0 /* AudioToolbox.framework in Frameworks */,
+				AFC6CF44163581710032B1B0 /* MapKit.framework in Frameworks */,
 				AF8C06DA16357C2E00725FC1 /* UIKit.framework in Frameworks */,
 				AF8C06DC16357C2E00725FC1 /* Foundation.framework in Frameworks */,
 				AF8C06DE16357C2E00725FC1 /* CoreGraphics.framework in Frameworks */,
+				82D689FCAB454EE4B50F3703 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,10 @@
 				AF8C070116357C2E00725FC1 /* SenTestingKit.framework in Frameworks */,
 				AF8C070216357C2E00725FC1 /* UIKit.framework in Frameworks */,
 				AF8C070316357C2E00725FC1 /* Foundation.framework in Frameworks */,
+				443B214FD27041A49ED23E77 /* libPods-TryiOS6TestRunnerWithCocoapodsTests.a in Frameworks */,
+				AFC6CF4A163581B40032B1B0 /* MessageUI.framework in Frameworks */,
+				AFC6CF4B163581B70032B1B0 /* AudioToolbox.framework in Frameworks */,
+				AFC6CF4C163581B90032B1B0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +117,8 @@
 				AF8C070616357C2E00725FC1 /* TryiOS6TestRunnerWithCocoapodsTests */,
 				AF8C06D816357C2E00725FC1 /* Frameworks */,
 				AF8C06D616357C2E00725FC1 /* Products */,
+				AB262DD20EEA45F998B3E744 /* Pods.xcconfig */,
+				0EFAEAF70F0E4BDDACAAFB7C /* Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +134,15 @@
 		AF8C06D816357C2E00725FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFC6CF481635819A0032B1B0 /* MessageUI.framework */,
+				AFC6CF461635817E0032B1B0 /* AudioToolbox.framework */,
+				AFC6CF43163581710032B1B0 /* MapKit.framework */,
 				AF8C06D916357C2E00725FC1 /* UIKit.framework */,
 				AF8C06DB16357C2E00725FC1 /* Foundation.framework */,
 				AF8C06DD16357C2E00725FC1 /* CoreGraphics.framework */,
 				AF8C070016357C2E00725FC1 /* SenTestingKit.framework */,
+				FA9AA9DE3F1340CD8F8C5BF7 /* libPods.a */,
+				E3D52E10E0DE4EACA6119EE6 /* libPods-TryiOS6TestRunnerWithCocoapodsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,6 +204,7 @@
 				AF8C06D116357C2E00725FC1 /* Sources */,
 				AF8C06D216357C2E00725FC1 /* Frameworks */,
 				AF8C06D316357C2E00725FC1 /* Resources */,
+				7061D39F5A944458BC28854F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +223,7 @@
 				AF8C06FB16357C2E00725FC1 /* Frameworks */,
 				AF8C06FC16357C2E00725FC1 /* Resources */,
 				AF8C06FD16357C2E00725FC1 /* ShellScript */,
+				60E26392879646E495E7129A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,12 +280,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8C070B16357C2E00725FC1 /* InfoPlist.strings in Resources */,
+				AF3189A116357D7600E17B28 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		60E26392879646E495E7129A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TryiOS6TestRunnerWithCocoapodsTests-resources.sh\"\n";
+		};
+		7061D39F5A944458BC28854F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		AF8C06FD16357C2E00725FC1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,10 +449,41 @@
 		};
 		AF8C071216357C2E00725FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB262DD20EEA45F998B3E744 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryiOS6TestRunnerWithCocoapods/TryiOS6TestRunnerWithCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "TryiOS6TestRunnerWithCocoapods/TryiOS6TestRunnerWithCocoapods-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lTestFlight",
+					"-lsqlite3.0",
+					"-lz",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					Foundation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"$(XCODE_TEST_LDFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,10 +491,39 @@
 		};
 		AF8C071316357C2E00725FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB262DD20EEA45F998B3E744 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryiOS6TestRunnerWithCocoapods/TryiOS6TestRunnerWithCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "TryiOS6TestRunnerWithCocoapods/TryiOS6TestRunnerWithCocoapods-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lTestFlight",
+					"-lsqlite3.0",
+					"-lz",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					Foundation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +531,7 @@
 		};
 		AF8C071516357C2E00725FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFAEAF70F0E4BDDACAAFB7C /* Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryiOS6TestRunnerWithCocoapods.app/TryiOS6TestRunnerWithCocoapods";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +541,38 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryiOS6TestRunnerWithCocoapods/TryiOS6TestRunnerWithCocoapods-Prefix.pch";
 				INFOPLIST_FILE = "TryiOS6TestRunnerWithCocoapodsTests/TryiOS6TestRunnerWithCocoapodsTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lTestFlight",
+					"-lsqlite3.0",
+					"-lz",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					Foundation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"$(XCODE_TEST_LDFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -426,6 +581,7 @@
 		};
 		AF8C071616357C2E00725FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFAEAF70F0E4BDDACAAFB7C /* Pods-TryiOS6TestRunnerWithCocoapodsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryiOS6TestRunnerWithCocoapods.app/TryiOS6TestRunnerWithCocoapods";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,6 +616,7 @@
 				AF8C071316357C2E00725FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF8C071416357C2E00725FC1 /* Build configuration list for PBXNativeTarget "TryiOS6TestRunnerWithCocoapodsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +625,7 @@
 				AF8C071616357C2E00725FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

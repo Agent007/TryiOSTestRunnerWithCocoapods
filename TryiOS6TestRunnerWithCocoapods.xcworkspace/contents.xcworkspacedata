@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:libXcodeTest.a">
+   </FileRef>
+   <FileRef
+      location = "group:build_and_run_unit_tests.sh">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TryiOS6TestRunnerWithCocoapods.xcodeproj">
+   </FileRef>
+</Workspace>
