@@ -23,22 +23,30 @@ fi
 # Calculate the variables to feed into the build
 OUTPUT_DIR=/tmp/xcodetest/${MAIN_APP_TARGET}
 XCODE_TEST_PATH=${OUTPUT_DIR}/${UNIT_TEST_TARGET}.octest/${UNIT_TEST_TARGET}
-#XCODE_TEST_LDFLAGS="-all_load -ObjC -framework SenTestingKit ${LINK_TO_XCODE_TEST_LIB} -F \"$\(SDKROOT\)/Developer/Library/Frameworks\""
-XCODE_TEST_LDFLAGS="${LINK_TO_XCODE_TEST_LIB}"
+XCODE_TEST_LDFLAGS="-framework SenTestingKit ${LINK_TO_XCODE_TEST_LIB} -F \"$\(SDKROOT\)/Developer/Library/Frameworks\""
 
 # More reliable if the simulator is not already running
 osascript -e 'tell app "iPhone Simulator" to quit'
 
 # Build the unit tests bundle, so it can be fed into waxsim
-xcodebuild -sdk iphonesimulator -scheme ${UNIT_TEST_TARGET} build CONFIGURATION_BUILD_DIR="${OUTPUT_DIR}"
+echo "========================="
+echo "Building unit test bundle"
+echo "========================="
+echo "xcodebuild -sdk iphonesimulator -scheme ${UNIT_TEST_TARGET} build CONFIGURATION_BUILD_DIR=\"${OUTPUT_DIR}\""
+echo "========================="
+xcodebuild -sdk iphonesimulator -workspace TryiOS6TestRunnerWithCocoapods.xcworkspace -scheme ${UNIT_TEST_TARGET} build CONFIGURATION_BUILD_DIR="${OUTPUT_DIR}"
 if [[ $? != 0 ]]; then
   echo "Failed to build unit tests!"
   exit $?
 fi
 
 # Build the main app, with libXcodeTest.a linked in
+echo "==========================="
+echo "Building app with xcodetest"
+echo "==========================="
 echo "xcodebuild -sdk iphonesimulator -scheme ${MAIN_APP_TARGET} build CONFIGURATION_BUILD_DIR=\"${OUTPUT_DIR}\" XCODE_TEST_LDFLAGS=\"${XCODE_TEST_LDFLAGS}\""
-xcodebuild -sdk iphonesimulator -scheme ${MAIN_APP_TARGET} build CONFIGURATION_BUILD_DIR="${OUTPUT_DIR}" XCODE_TEST_LDFLAGS="${XCODE_TEST_LDFLAGS}"
+echo "==========================="
+xcodebuild -sdk iphonesimulator -workspace TryiOS6TestRunnerWithCocoapods.xcworkspace -scheme ${MAIN_APP_TARGET} build CONFIGURATION_BUILD_DIR="${OUTPUT_DIR}" XCODE_TEST_LDFLAGS="${XCODE_TEST_LDFLAGS}"
 if [[ $? != 0 ]]; then
   echo "Failed to build app!"
   exit $?
